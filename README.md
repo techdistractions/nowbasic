@@ -125,3 +125,17 @@ AI has enabled rapid experimentation with compiler architectures, ports to other
 The development process has evolved alongside the software, incorporating version control, reproducible builds, automated regression testing and compatibility audits. Failures and architectural revisions have helped establish a disciplined approach to AI-assisted software engineering.
 
 NowBasic makes no claim to being entirely hand-written or free from defects. It remains an experimental project exploring both programming for classic computers and the capabilities of modern AI-assisted development tools.
+
+## Ports & Further Experiments
+
+The project is currently focussed on Win16 but has a few branches in the works (not in priority order):
+
+1. TARGET WIN32S - an extended language set that can utilise Win32S API and conveniences.
+
+2. TARGET GEMDOS - reduced P-Code runtime which enables multiple applications to be launched on regular GEM/3 (support EMS)
+
+3. TARGET STGEM - native compiler and IDE for Atari ST
+
+4. TARGET GEOS64 - native compiler and IDE for Commodore 64 GEOS
+
+5. TARGET MAC128K - native compiler and IDE for Mac 128K and System 1.0
