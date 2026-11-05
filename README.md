@@ -81,14 +81,12 @@ These tools assist with compiler development, automated testing, regression anal
 
 ## Compiling Components
 
-NowBasic uses two build toolchains:
+NowBasic uses a simple build toolchain
 
-1. **32-bit Windows:** Uses JWASM to assemble source code and NBJWLINK to link both 16-bit Windows NE and 32-bit Portable Executable (PE) files.
-
-2. **MS-DOS (16-bit):** Uses JWASMR to assemble source code and NBLINKNE to link native 16-bit Windows New Executable (NE) files, compatible with early real-mode Windows.
-Currently descoped and unsupported.
+**32-bit Windows:** Uses JWASM to assemble source code and NBJWLINK to link both 16-bit Windows NE and 32-bit Portable Executable (PE) files.
 
 NBLINKNE is a purpose-built NowBasic linker, while NBJWLINK is derived from Open Watcom's JWLINK and retains the Sybase Open Watcom Public License.
+It extends JWLINK to export Win16 NE's suitable for Windows 1x, 2x and 3.0 real mode while handling some of the more bespoke layouts presented in the design.
 
 ## Licensing
 
