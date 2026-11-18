@@ -75,7 +75,7 @@ The primary NowBasic source tree focuses on the Windows compilers, IDEs and cont
 
 Experimental platform work, including Atari ST, Macintosh 128K, Commodore 64 GEOS and MS-DOS GEM/3, is maintained separately. These experiments explore the portability of the language and alternative implementations suited to different hardware and operating systems.
 
-Supporting utilities such as AUTOUAT and NOWBAT, together with various auditing, testing and development tools, are also maintained outside the core distribution.
+Supporting utilities such as [NOWBAT](https://github.com/techdistractions/NOWBAT), together with various auditing, testing and development tools, are also maintained outside the core distribution.
 
 These tools assist with compiler development, automated testing, regression analysis and compatibility validation but are not required by end users of compiled NowBasic applications.
 
@@ -95,7 +95,7 @@ NowBasic is a free, open-source project with component-specific licensing.
 | Component | License |
 | --- | --- |
 | **LANGREF** (Language Specification) | CC BY-ND 4.0 |
-| **NBJWLINK** (Windows Linker) | Sybase Open Watcom Public License 1.0 |
+| **[NBJWLINK](https://github.com/techdistractions/NBJWLINK)** (Windows Linker) | Sybase Open Watcom Public License 1.0 |
 | **All other NowBasic components** | CC0 1.0 Universal (Public Domain) |
 
 ### Language Specification (LANGREF)
@@ -104,7 +104,7 @@ The authoritative NowBasic language specification is distributed under [Creative
 
 ### Windows Linker (NBJWLINK)
 
-Derived from JWLINK and distributed under the [Sybase Open Watcom Public License 1.0](https://opensource.org/license/Watcom-1.0), retaining applicable copyright and license notices.
+Derived from JWLINK and distributed under the [Sybase Open Watcom Public License 1.0](https://opensource.org/license/Watcom-1.0), retaining applicable copyright and license notices. NBJWLINK is a simple extension enabling Windows 1x/2x and 3x NE executables to be output.
 
 ### Other Components
 
@@ -137,3 +137,5 @@ The project is currently focussed on Win16 but has a few branches in the works (
 4. TARGET GEOS64 - native compiler and IDE for Commodore 64 GEOS
 
 5. TARGET MAC128K - native compiler and IDE for Mac 128K and System 1.0
+
+6. TARGET OS8088 - native compiler and IDE for the OS8088 project https://os8088.com/ 
